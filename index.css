@@ -186,7 +186,7 @@ hr {
 
 @media all and (max-width: 400px) {
 
-    #modal { 
+    #modal, a { 
         display: none;
     }
 
@@ -194,10 +194,6 @@ hr {
         background-size: cover;
         display: left;
         height: 200px;
-    }
-
-    a {
-        display: none;
     }
 
     .toy-trains {
