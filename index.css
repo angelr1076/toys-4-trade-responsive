@@ -184,7 +184,7 @@ hr {
     color: blue;
 }
 
-@media all and (max-width: 400px) {
+@media all and (min-width: 400px) {
 
     #modal, a { 
         display: none;
@@ -201,7 +201,6 @@ hr {
         height: auto;
         float: 40%;
     } 
-
 }
 
 @media all and (min-width: 401px) and (max-width: 1000px) {
@@ -215,3 +214,13 @@ hr {
     a {
         font-size: 15px;
     }
+
+    @media only screen and (max-width: 600px) {
+    #modal {
+        display: none;
+        }
+    
+    #catalog {
+        display: block;
+    }
+}

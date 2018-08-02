@@ -15,8 +15,15 @@ var header = document.getElementById("modal-para");
             (header.innerHTML = "Please try again");
         }
     } 
+
     window.onclick = function(event) {
         if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+
+    window.ontouchend = function(event) {
+        if (event.target = modal) {
             modal.style.display = "none";
         }
     }
