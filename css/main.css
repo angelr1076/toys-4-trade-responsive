@@ -1,0 +1,156 @@
+.alt-navbar .vintage-toy {
+  border: 5px solid #7eabb9; }
+
+.navbar {
+  max-width: 300px;
+  float: left;
+  display: block;
+  position: fixed;
+  padding: none; }
+
+p {
+  font-family: "Amatic SC", cursive;
+  font-size: 25px; }
+
+ul, a {
+  font-family: "Gaegu", cursive;
+  font-weight: bold;
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 30px;
+  text-shadow: 6px 8px 9px #7a7777; }
+
+h3 {
+  font-family: "Monoton", cursive;
+  letter-spacing: 3px;
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 25px; }
+
+.catalog-logo {
+  text-align: center; }
+
+.container {
+  margin: 0 auto;
+  width: 900px; }
+
+.page-header {
+  font-family: 'Monoton', cursive;
+  text-align: center;
+  font-size: 50px; }
+
+/* remove float to shift main image to top of page */
+.vintage-toy {
+  display: block;
+  /* float: right; */
+  margin: 5% auto;
+  width: 40%;
+  border-radius: 4px;
+  box-shadow: 6px 8px 9px #7a7777; }
+
+.vintage-collection {
+  display: block;
+  float: right;
+  margin: 0 auto;
+  width: 60%; }
+
+hr {
+  height: 20px;
+  background-color: #2472a0;
+  border: none;
+  box-shadow: 6px 8px 9px #7a7777; }
+
+.header-container, .catalog {
+  display: block;
+  margin: 6%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%; }
+
+.toy-trains {
+  width: 900px;
+  margin: auto; }
+
+.trains {
+  width: 10%;
+  height: auto;
+  margin: 10px;
+  width: 45%;
+  /* padding: 10px; */
+  border: none;
+  box-shadow: 4px 4px 5px #534b4b; }
+
+.last-logo {
+  margin-bottom: 7%; }
+
+.special {
+  margin-top: 6%;
+  text-align: center; }
+
+.copyright {
+  font-family: 'Gaegu', cursive;
+  margin: 7%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+  text-shadow: 6px 8px 9px #7a7777; }
+
+#modal {
+  display: none;
+  position: fixed;
+  width: 400px;
+  height: 300px;
+  top: 30%;
+  left: 30%;
+  box-shadow: 3px 3px 3px black;
+  border-radius: 3px;
+  border: 1px solid grey;
+  background: #82dfcb; }
+
+#modal-para {
+  font-size: 25px;
+  text-align: center;
+  background: #bada55; }
+
+#modal:hover {
+  background: #8298df; }
+
+#name, #email {
+  margin-left: 25%;
+  margin-top: 10px;
+  width: 40%;
+  border: 3px solid #370080;
+  padding: 10px;
+  border-radius: 3px; }
+
+#submit {
+  margin-left: 33%;
+  margin-top: 5px;
+  height: 40px;
+  width: 30%;
+  padding: 3px;
+  background: #370080;
+  color: white;
+  font-size: 15px;
+  border-radius: 3px; }
+
+#submit:active {
+  transform: translateY(5px);
+  background: #6d3fa8; }
+
+#close-message {
+  text-align: center;
+  font-size: 20px;
+  padding-top: 10px; }
+
+#close-content {
+  text-align: right;
+  margin: 5px;
+  font-family: 'Amatic SC', cursive;
+  font-size: 20px;
+  font-weight: bold; }
+
+#close-content:hover {
+  color: blue; }
+
+/*# sourceMappingURL=main.css.map */

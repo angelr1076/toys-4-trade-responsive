@@ -17,13 +17,8 @@ var header = document.getElementById("modal-para");
     } 
 
     window.onclick = function(event) {
-        if (event.target == modal) {
+        if (event.target === modal) {
             modal.style.display = "none";
         }
     }
 
-    window.ontouchend = function(event) {
-        if (event.target = modal) {
-            modal.style.display = "none";
-        }
-    }
